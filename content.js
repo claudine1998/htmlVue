@@ -4,7 +4,7 @@ new Vue({
     return {};
   },
   template: `
-    <div class="container col-md-h-100 d-flex justify-content-center align-items-center flex-column">
+    <div class="container h-100 d-flex justify-content-center align-items-center flex-column">
         <div class="">
             <div class="row gy-5 mb-4">
                 <div class="col-sm-12 col-md-4">
