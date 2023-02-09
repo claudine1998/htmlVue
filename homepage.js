@@ -4,6 +4,7 @@ new Vue({
     return {};
   },
   template: `
+  <div class="position-relative vh-100">
   <div
 	class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white vh-100 position-absolute top-0 w-100 object-fit-cover"
 	style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
@@ -17,6 +18,7 @@ new Vue({
 		</p>
 	</div>
 	</div>
+  </div>
   </div>
 `,
 });
