@@ -3,8 +3,8 @@ new Vue({
   data() {
     return {
       items: [
-        { name: "Home", link: "#" },
-        { name: "Link", link: "#" },
+        { name: "Home", link: "#home" },
+        { name: "About", link: "#grid" },
         { name: "Profile", link: "#" },
         { name: "Contact Us", link: "#" },
       ],
@@ -20,7 +20,7 @@ new Vue({
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li v-for="item in items" class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">{{ item.name }}</a>
+						<a class="nav-link active" aria-current="page" :href="item.link">{{ item.name }}</a>
 					</li>					
 				</ul>
 			</div>
